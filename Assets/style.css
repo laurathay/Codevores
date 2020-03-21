@@ -1,0 +1,255 @@
+/*----- partie responsive ------*/
+
+#header{
+  height:50px;
+  max-width: 1500px;
+  width:100%;
+  background-color: #f7e6a8;
+}
+
+#main{
+  max-width: 1000px;
+  width:100%;
+  margin: 0 auto;
+  min-height: 1000px;
+  height: 100%;
+  position: relative;
+  background-color: #c5e9ea;
+}
+
+#left-footer{
+  max-width:500px;
+  width:33.3333%;
+  height: 250px;
+  float:left;
+  background-color: pink;
+}
+
+#middle-footer{
+  max-width: 500px;
+  width:33.3333%;
+  height: 250px;
+  float:left;
+  background-color: #333333;
+}
+
+#right-footer{
+  max-width:500px;
+  width:33.3333%;
+  height:250px;
+  float:right;
+  background-color: pink;
+}
+
+footer{
+  height:250px;
+  max-width: 1500px;
+  width: 100%;
+  clear: both;
+}
+/* ---- pour les trucs générales ---- */
+
+body{
+  margin: 0px; /* pour éviter les blancs entre les banner et le fond*/
+}
+
+.titre1{
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+
+}
+
+h2{
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+h3, {
+  font-family: 'Abril Fatface', cursive;
+}
+
+/* ---- page INDEX ----- */
+.link-recruiters{
+  text-decoration: none;
+  color:grey;
+}
+
+.link-dev{
+  padding-left: 71em;
+  text-decoration: none;
+  color:grey;
+}
+
+.nav-primary{
+  margin: 65px auto;
+  width: 43em;
+}
+
+.nav{
+  background-color:#ffffff;
+  color: #000000;
+  list-style: none;
+  padding: 2em 0em 2em 0em;
+}
+
+
+nav li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.codevores{
+  font-size: 2em;
+  padding-left:
+}
+
+
+
+/* PAGE RECRUITERS --- présentation des entreprises/ ONG / associations --- */
+.table { /* le tableau de projets*/
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.project_images {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 3;
+}
+
+.project_image.first { /*pour avoir de lespace entre les 4 images*/
+  margin-bottom: 20px;
+}
+
+.project_image.even {
+  margin-left: 20px;
+}
+
+.project_image {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 470px;
+  height: 315px;
+  border: 10px solid #fff;
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+/* article par dessus le tableau */
+article{
+  display: block;
+}
+
+.project_description {
+  position: absolute;
+  top: 50%;
+  right: -160px;
+  margin-top: -100px;
+  width: 210px;
+  background: #fff;
+  z-index: 4;
+}
+
+.project_description_cont{ /* le cadre par dessus les 4 images*/
+  position: relative;
+  padding: 25px;
+  opacity: 1;
+  z-index: 5;
+}
+
+.project_title {
+  display: inline;
+  font: normal 17px/30px 'f24e4d5d';
+  border-bottom: 4px solid #fff;
+}
+
+.brief-recruiter{ /* besoin de changer la police qui est introuvable */
+  font-family: 'f24e4d5d',"Helvetica Neue","Helvetica","Arial";
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+}
+
+
+
+
+/* pour la partie présentation des développeurs*/
+
+.hello-above-titre-dev{
+  font-family: 'libre caslon text',Sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3em;
+  color: #b3b6b9;
+}
+.titre-dev{
+  font-family:'Libre Caslon Text', serif;
+  font-size: 90px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1em;
+}
+
+.texte-dev{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.6em;
+  letter-spacing: -.66px;
+}
+
+.button-learn-more-dev{
+  font-family: fira sans,Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: .36px;
+}
+
+
+
+/* ----  code pour les réseaux sociaux  ---- */
+.footer{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  display:inline;
+  justify-content: space-around;
+}
+
+ /* ----  code pour les cookies ---- */
+.window
+{
+  display: flex;
+  text-align: center;
+  margin-top: auto;
+  justify-content: center;
+  background-color: #fff5f2;
+  bottom: 0;
+  position: fixed;
+  width: 100%;!important
+  height:10%;
+  color:pink;
+  border-radius:
+  /* pour occuper tout lespace de la boite du texte*/
+  flex-grow: 2; /* on le met pour le paragraphe texte et ca va de 1 à 3 selon la force*/
+}
+.cookie-button{
+  border-radius: 1em;
+  margin: 0.5em;
+}
