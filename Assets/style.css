@@ -1,7 +1,7 @@
 /*----- partie responsive ------*/
 
 #header{
-  height:50px;
+  height:77px;
   max-width: 1500px;
   width:100%;
   background-color: #f7e6a8;
@@ -17,6 +17,14 @@
   background-color: #c5e9ea;
 }
 
+#main h2, #main img{
+  padding: 0 1%;
+}
+
+#main p{
+  padding: O 1%;
+}
+
 #left-footer{
   max-width:500px;
   width:33.3333%;
@@ -30,7 +38,7 @@
   width:33.3333%;
   height: 250px;
   float:left;
-  background-color: #333333;
+  background-color: #f7e6a8;
 }
 
 #right-footer{
@@ -47,21 +55,112 @@ footer{
   width: 100%;
   clear: both;
 }
-/* ---- pour les trucs générales ---- */
+
+img{
+  max-width: 100%;
+}
+/* ---------- media queries ---------*/
+
+@media only screen and (max-width: 1024px){ /* tablette */
+  #header{
+    height:100%;
+    min-height: 77px;
+    max-width: 1024px;
+    width:100%;
+    float:none;
+  }
+
+  body{
+    font:12px;
+  }
+}
+
+@media only screen and (max-width:767px){ /* grand écran mobile */
+  #hearder{
+    height:77px;
+  }
+  #main{
+    width:100%;
+    margin: 0 auto;
+    background-color: #c5e9ea;
+  }
+  .link-dev{
+    padding-left: 48em;
+  }
+
+  .menu{
+    overflow: hidden;
+  }
+
+  .nav-primary{
+    display: block;
+  }
+
+  .nav-primary ul li{ /* a revoir le nav est mal placer*/
+    display: inline;
+  }
+}
+
+@media only screen and (max-width:480px){
+  footer{
+    min-height:250px;
+    height: 100%;
+  }
+
+  #left-footer{
+    width:40%;
+    height: 250px;
+  }
+
+  #middle-footer{
+    width:60%;
+    height: 250px;
+    float:right;
+    margin-top:-250px;
+  }
+
+  #right-footer{
+    width:100%;
+    height:250px;
+    float:none;
+  }
+
+  body p {
+    font-size: 5px;
+  }
+}
+/*------------------------ pour le thème jour-nuit ------------------------*/
+.jour, .nuit{
+	display: flex;
+	display: inline-block;
+}
+
+.theme-jour{
+	background-color: pink;
+	color: #cec8ce;
+}
+
+.theme-nuit{
+	background-color: #cec8ce;
+	color:grey;
+}
+
+/* ------- passons au style -------- */
 
 body{
+  font-family: 'Quicksand', sans-serif;
   margin: 0px; /* pour éviter les blancs entre les banner et le fond*/
 }
 
-.titre1{
-  font-family: 'Abril Fatface', cursive;
-  text-align: center;
-
-}
-
-h2{
+h1{
   font-family: 'Quicksand', sans-serif;
-
+  font-size: 3em;
+  background-image: linear-gradient(to bottom, transparent 50%, #FFDA00 50%);
+  background-size: 1px 12px;
+  background-position: 0px 97%;
+  background-repeat: repeat-x;
+  display: inline;
+  text-shadow: 3px 4px #ffffff;
 }
 
 h3, {
@@ -69,27 +168,46 @@ h3, {
 }
 
 /* ---- page INDEX ----- */
+/*----------------------partie header----------------*/
+.inscription{
+  display:flex;
+}
+
+.inscription .link-recruiters, .link-dev{
+  display:inline-block;
+}
 .link-recruiters{
   text-decoration: none;
   color:grey;
 }
 
 .link-dev{
-  padding-left: 71em;
   text-decoration: none;
   color:grey;
 }
 
+.codevores{
+  position: relative; /* a noter pour le futur et pouvoir décaler une div comme on veut avec ces deux combos */
+  left:10em;/* ne pas oublier cette deuxieme partie pour la bouger */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  background-image: linear-gradient(to bottom, transparent 50%, #FFDA00 50%);
+  background-size: 1px 12px;
+  background-position: 0px 97%;
+  background-repeat: repeat-x;
+  display: inline;
+  text-shadow: 3px 4px #ffffff;
+}
+
 .nav-primary{
-  margin: 65px auto;
-  width: 43em;
+  margin: 0em 0em;
+  width: 30em;
 }
 
 .nav{
   background-color:#ffffff;
   color: #000000;
   list-style: none;
-  padding: 2em 0em 2em 0em;
 }
 
 
@@ -98,9 +216,22 @@ nav li a{
   color: #000000;
 }
 
-.codevores{
-  font-size: 2em;
-  padding-left:
+.list-inline li {
+  list-style: none;
+  text-decoration: none;
+}
+
+/*---------------- partie main -------------*/
+img{
+  /* plutot un background later*/
+}
+
+.accroche{
+  text-align: left;
+}
+
+.italic{
+  font-style: italic;
 }
 
 
@@ -111,6 +242,7 @@ nav li a{
   display: table;
   width: 100%;
   height: 100%;
+  margin-left: 2em;
 }
 
 .project_images {
@@ -132,8 +264,8 @@ nav li a{
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 470px;
-  height: 315px;
+  width: 27em;
+  height: 15em;
   border: 10px solid #fff;
   overflow: hidden;
 }
@@ -145,6 +277,7 @@ figure {
 /* article par dessus le tableau */
 article{
   display: block;
+  margin-right: 6em;
 }
 
 .project_description {
@@ -226,10 +359,15 @@ article{
   text-decoration: none;
 }
 
-ul li {
+.list-inline2 li {
   list-style: none;
   display:inline;
   justify-content: space-around;
+  text-decoration: none;
+}
+
+a{
+  color: black;
 }
 
  /* ----  code pour les cookies ---- */
@@ -249,7 +387,12 @@ ul li {
   /* pour occuper tout lespace de la boite du texte*/
   flex-grow: 2; /* on le met pour le paragraphe texte et ca va de 1 à 3 selon la force*/
 }
+
+.window p{
+  font-size: 0.7em;
+}
+
 .cookie-button{
   border-radius: 1em;
-  margin: 0.5em;
+  margin: 0.8em;
 }

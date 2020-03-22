@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <script src="https://kit.fontawesome.com/682d71be2a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display|Quicksand&display=swap" rel="stylesheet">
@@ -10,22 +10,28 @@
 
 
   </head>
-  <body>
+  <body class="toutjour toutnuit theme-jour theme-nuit">
 
     <section id="header">
 
-              <a href="process.html" class="link-recruiters"> Recruiters </a>
-              <a href="process.html"class="link-dev"> Developers </a>
+              <div class="inscription">
+                <a href="process.html" class="link-recruiters"> Recruiters / </a>
+                <a href="process.html"class="link-dev"> / Developers </a>
+                <a href="#" class="codevores"> Codevores </a>
+
+              </div>
 
               <div class="menu">
                 <nav class ="nav-primary">
-                  <ul>
+                  <ul class="list-inline">
+                    <li><a href="#"><button type="button"class="burger" name="button"><i class="fas fa-align-justify"></i></a></li>
                     <li><a href="index.html" target="_blank"> About </a></li>
                     <li><a href="process.html"> Process </a></li>
-                    <li><a href="#" class="codevores"> Codevores </a></li>
                     <li><a href="blog.html"> Blog </a></li>
                     <li><a href="contact.html"> Services </a></li>
                     <li><a href="contact.html"> Contact </a></li>
+                    <li><a href="#"><button type="button" class="jour" name="button"><i class="far fa-lightbulb"></i></a></li>
+                    <li><a href="#"><button type="button" class="nuit" name="button"><i class="fas fa-lightbulb"></i></a></li>
                   </ul>
                 </nav>
               </div>
@@ -39,7 +45,7 @@
                 <img src="" alt="">
 
                 <div class="accroche">
-                	<h2> Codevores digital nomad version <br/> <span class= "italic">« a community as colorful as your code » </span></h2>
+                	<h1> Codevores <br/> a digital nomad community <br/> <span class= "italic">« as colorful as your code » </span></h1>
                 </div>
     </section>
 
@@ -51,7 +57,7 @@
         </div>
 
         <div id="middle-footer">
-                <ul class= list-inline>
+                <ul class= list-inline2>
                   <li><a href="#"><i class="fab fa-vimeo-square"></i></a></li>
                   <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
                   <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -67,9 +73,8 @@
 
       <!-- ajout de cookies -->
     <section class="window">
-      	<p> Cliquez sur "J'accepte" pour accepter l'utilisation de cookies sur ce site </p>
-				<button class="cookie-button" type="button" onclick="document.querySelector('.window').remove()" class="btn btn-light">Accepter</button>
-				<button class="cookie-button" type="submit" class="btn btn-light">Je refuse</button>
+      	<p> We use our own cookies and third party cookies to ensure the proper functioning of the website, to personalize content and advertising and to analyze data traffic and user behavior based on pseudonymous data. </p>
+				<button class="cookie-button" type="button" onclick="document.querySelector('.window').remove()" class="btn btn-light"> Got it!</button>
     </section>
 
     <script src="script.js"></script>
