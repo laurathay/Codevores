@@ -196,7 +196,7 @@ h3, {
   background-position: 0px 97%;
   background-repeat: repeat-x;
   display: inline;
-  text-shadow: 3px 4px #ffffff;
+  text-shadow: 3px 4px #fffff;
 }
 
 .nav-primary{
@@ -223,10 +223,12 @@ nav li a{
 
 /*---------------- partie main -------------*/
 img{
-  /* plutot un background later*/
+  background-position: center;
 }
 
 .accroche{
+  padding-top: 2em;
+  padding-left: 2em;
   text-align: left;
 }
 
@@ -234,6 +236,46 @@ img{
   font-style: italic;
 }
 
+.bold{
+  font-size: bold;
+}
+
+.paragraphs{
+  padding-top: 3em;
+  padding-left: 20em;
+  border: 0 solid;
+  width:33em;
+}
+
+/*@media (min-width: 36rem){*/
+.paragraphs p{
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-align: justify;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 150%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 50%;
+    width: 100%;
+  }
+}
+
+.values .paragraphs{
+  padding-right: 3rem;
+}
+
+h5, .blog-post-body .__homepage-hero__154d1 .homepage-hero blockquote {
+    animation: fadein .6s cubic-bezier(.165,.84,.44,1) both;
+    position: relative;
+}
 
 
 /* PAGE RECRUITERS --- présentation des entreprises/ ONG / associations --- */
@@ -357,8 +399,23 @@ article{
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   text-decoration: none;
+  list-style: none;
 }
 
+/* left and right footer*/
+.list-inline3 li {
+  padding-bottom: 1em;
+  list-style: none;
+  text-decoration: none;
+}
+
+.list-inline3{
+  position: relative;
+  height: 2em;
+  padding-top: 1em;
+}
+
+/*middle footer*/
 .list-inline2 li {
   list-style: none;
   display:inline;
@@ -368,6 +425,30 @@ article{
 
 a{
   color: black;
+}
+
+.padding-top-middle-footer{
+  padding-top: 2em;
+}
+
+h4{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  background-image: linear-gradient(to bottom, transparent 50%, #FFDA00 50%);
+  background-size: 1px 12px;
+  background-position: 0px 97%;
+  background-repeat: repeat-x;
+  display: inline;
+  text-shadow: 1px 2px #ffffff;
+}
+
+i{
+  padding-right: 2em;
+}
+
+.copyright{
+  margin-top: 4em;
+  font-size:0.8em;
 }
 
  /* ----  code pour les cookies ---- */
