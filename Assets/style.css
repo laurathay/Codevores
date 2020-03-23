@@ -128,9 +128,24 @@ img{
                   font-size: 1em;
       }
       .values .paragraphs{
-                 font-size: 1em;
-                 padding-top: 1em;
-                 line-height: 0.3em;
+
+                  font-size: 1em;
+                  padding-top: 1em;
+                  line-height: 0.3em;
+                  padding-left: 1em;
+                  width:15em;
+      }
+
+      .section-header__title h2{
+
+                  font-size: 1em;
+      }
+
+      .section-header__detail .paragraphs{
+
+                  font-size: 1em;
+                  padding-top: 1em;
+                  line-height: 0.3em;
                   padding-left: 1em;
                   width:15em;
       }
@@ -254,6 +269,11 @@ nav li a{
   text-decoration: none;
 }
 
+.jour, .nuit{
+  background-color: transparent;
+  border: transparent;
+}
+
 /*---------------- partie main -------------*/
 img{
   background-position: center;
@@ -277,7 +297,6 @@ img{
   padding-top: 3em;
   padding-left: 20em;
   border: 0 solid;
-  width:23em;
 }
 
 .paragraphs p{
@@ -310,7 +329,7 @@ img{
 	padding: 0;
 	max-width: 600px;
 	list-style: none;
-	height: 15em;
+	overflow: scroll;
 }
 
 #list-animation li {
@@ -391,10 +410,10 @@ img{
 
 .header-xl {
     font-size: 2.5rem;
-    font-family: Lyon,serif;
     font-weight: 700;
 }
 h2 {
+    font-family: 'Quicksand', sans-serif;
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -402,6 +421,12 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    background-image: linear-gradient(to bottom, transparent 50%, #FFDA00 50%);
+    background-size: 1px 6px;
+    background-position: 0px 101%;
+    background-repeat: repeat-x;
+    display: inline;
+    text-shadow: 5px 3px #ffffff;
 }
 
 @media (min-width: 48rem){
@@ -417,18 +442,11 @@ h2 {
 }
 
 /*la c'est pour les logo des entreprises*/
-table {
-  border-collapse: collapse;
-}
-
-table, th, td {
-  border: 1px solid black;
-}
-
 .logo-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 6em;
   /*justify-content: center;*/
 }
 
