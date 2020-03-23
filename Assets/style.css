@@ -99,35 +99,68 @@ img{
   .nav-primary ul li{ /* a revoir le nav est mal placer*/
     display: inline;
   }
+
+  h1{
+    font-size: 1em;
+  }
+
+  .paragraphs p{
+    font-size: 0.8em;
+    margin-left: 0;
+  }
 }
 
-@media only screen and (max-width:480px){
-  footer{
-    min-height:250px;
-    height: 100%;
-  }
 
-  #left-footer{
-    width:40%;
-    height: 250px;
-  }
 
-  #middle-footer{
-    width:60%;
-    height: 250px;
-    float:right;
-    margin-top:-250px;
-  }
+@media screen and (max-width:375px){ /*plus petit écran mobile*/
 
-  #right-footer{
-    width:100%;
-    height:250px;
-    float:none;
-  }
+      .link-dev {
 
-  body p {
-    font-size: 5px;
-  }
+                  padding-left: 0em;
+      }
+
+      .inscription .codevores{
+
+                  display: none;
+      }
+      .accroche h1{
+
+                  font-size: 1em;
+      }
+      .values .paragraphs{
+                 font-size: 1em;
+                 padding-top: 1em;
+                 line-height: 0.3em;
+                  padding-left: 1em;
+                  width:15em;
+      }
+
+      footer{
+        min-height:250px;
+        height: 100%;
+      }
+
+      #left-footer{
+        width:40%;
+        height: 250px;
+      }
+
+      #middle-footer{
+        width:60%;
+        height: 250px;
+        float:right;
+        margin-top:-250px;
+      }
+
+      #right-footer{
+        width:100%;
+        height:250px;
+        float:none;
+      }
+
+      body p {
+        font-size: 5px;
+      }
 }
 /*------------------------ pour le thème jour-nuit ------------------------*/
 .jour, .nuit{
@@ -244,10 +277,9 @@ img{
   padding-top: 3em;
   padding-left: 20em;
   border: 0 solid;
-  width:33em;
+  width:23em;
 }
 
-/*@media (min-width: 36rem){*/
 .paragraphs p{
   font-size: 1.25rem;
   line-height: 1.5;
@@ -385,12 +417,24 @@ h2 {
 }
 
 /*la c'est pour les logo des entreprises*/
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
 
 .logo-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /*justify-content: center;*/
+}
+
+.logo-list .logo-list__logo .image img{
+  display:inline-block;
+
 }
 
 @media (min-width: 48rem){
