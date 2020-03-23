@@ -271,11 +271,98 @@ img{
 .values .paragraphs{
   padding-right: 3rem;
 }
+/* la liste animé */
 
-h5, .blog-post-body .__homepage-hero__154d1 .homepage-hero blockquote {
+#list-animation {
+	margin: 2em auto;
+	padding: 0;
+	max-width: 600px;
+	list-style: none;
+	height: 15em;
+}
+
+#list-animation li {
+	display:inline-block;
+	width: 10em;
+	height: 12em;
+	margin: 3em 1em;
+	text-align: center;
+	line-height: 100px;
+	opacity: 0;
+	animation: fadeIn 1s ease-in both;
+}
+
+#list-animation li:nth-child(2) {
+	animation-delay: 1s;
+}
+#list-animation li:nth-child(3) {
+	animation-delay: 2s;
+}
+#list-animation li:nth-child(4) {
+	animation-delay: 3s;
+}
+#list-animation li:nth-child(5) {
+	animation-delay: 4s;
+}
+#list-animation li:nth-child(5) {
+	animation-delay: 5s;
+}
+#list-animation li:nth-child(5) {
+	animation-delay: 5s;
+}
+
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.hover {
+  display: none;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 8px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* pour l'image a linterieur de la list*/
+.imglink img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.center{
+  padding-left: 3em;
+}
+
+/* pour le fun */
+h5 {
     animation: fadein .6s cubic-bezier(.165,.84,.44,1) both;
     position: relative;
 }
+
 
 
 /* PAGE RECRUITERS --- présentation des entreprises/ ONG / associations --- */
