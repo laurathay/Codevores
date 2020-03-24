@@ -116,38 +116,47 @@ img{
 
       .link-dev {
 
-                  padding-left: 0em;
+                  padding-left:      0em;
       }
 
       .inscription .codevores{
 
-                  display: none;
+                  display:           none;
       }
       .accroche h1{
 
-                  font-size: 1em;
+                  font-size:         1em;
       }
       .values .paragraphs{
 
-                  font-size: 1em;
-                  padding-top: 1em;
-                  line-height: 0.3em;
-                  padding-left: 1em;
-                  width:15em;
+                  font-size:          1em;
+                  padding-top:        1em;
+                  line-height:      0.3em;
+                  padding-left:       1em;
+                  width:             15em;
       }
 
       .section-header__title h2{
 
-                  font-size: 1em;
+                  font-size:          1em;
       }
 
       .section-header__detail .paragraphs{
 
-                  font-size: 1em;
-                  padding-top: 1em;
-                  line-height: 0.3em;
-                  padding-left: 1em;
-                  width:15em;
+                  font-size:          1em;
+                  padding-top:        1em;
+                  line-height:      0.3em;
+                  padding-left:       1em;
+                  width:             15em;
+      }
+
+      .logo-list__logo img {
+          max-width: 35%;
+      }
+
+      .billboard__content h3{
+                  font-size:         1rem;
+
       }
 
       footer{
@@ -274,7 +283,13 @@ nav li a{
   border: transparent;
 }
 
-/*---------------- partie main -------------*/
+
+
+/*---------------- PARTIE MAIN -------------*/
+
+
+
+
 img{
   background-position: center;
 }
@@ -322,7 +337,13 @@ img{
 .values .paragraphs{
   padding-right: 3rem;
 }
-/* pour la partie portfolio developers : la liste animé */
+
+
+
+
+/*--- SNEAK PEAK PORTFOLIO DEV : la liste animé -------*/
+
+
 
 #list-animation {
 	margin: 2em auto;
@@ -379,7 +400,12 @@ img{
     height: auto;
 }
 
-/* pour l'image a linterieur de la list*/
+
+
+
+/*------ pour l'image a linterieur de la list-------*/
+
+
 .imglink img {
     border: 1px solid #ddd;
     width:150%;
@@ -390,8 +416,13 @@ img{
   padding-left: 3em;
 }
 
-/* pour la partie portoflio entreprise */
+
+
+
+/*--------- SNEAK PEAK PORTFOLIO ENTREPRISE --------*/
 /*la c'est juste le titre et le texte */
+
+
 @media (min-width: 48rem){
 .section-header.-narrow .section-header__title {
     width: 60%;
@@ -441,13 +472,12 @@ h2 {
     padding-right: 3rem;
 }
 
-/*la c'est pour les logo des entreprises*/
+/*-------- SNEAK PEAK  logo des entreprises---------*/
 .logo-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 6em;
-  /*justify-content: center;*/
 }
 
 .logo-list .logo-list__logo .image img{
@@ -532,15 +562,381 @@ h2 {
     margin-bottom: 1.5rem;
     max-width: 12rem;
 }
-/* POUR LE FUN
-h5 {
-    animation: fadein .6s cubic-bezier(.165,.84,.44,1) both;
+
+
+/*-------- BLOG---------*/
+
+/*partie titre*/
+.eyIDFm {
     position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 4rem 0px;
+    display: block;
 }
-*/
+
+.fxFQyp {
+    min-width: 0px;
+    width: 100%;
+    max-width: 78rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 1.5rem;
+}
+
+.dOcBsp {
+    margin-bottom: 3.125rem;
+    z-index: 10;
+    display: flex;
+    padding-bottom: 1.5rem;
+    text-align: left;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.HXuyi {
+    font-size: 1.9375rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.bzMUjw {
+    margin-left: auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+/* parie article */
+
+.eliJnu:last-child {
+    margin-bottom: 0px;
+}
+
+.dmbPyR {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    margin-bottom: calc(-3rem);
+}
+
+.dmbPyR > div:nth-child(2n+1) {
+    width: 33.3333%;
+}
+
+.dmbPyR > div{
+    padding: 0px 1.5rem calc(3rem);
+}
+
+/*1er article*/
+
+.iAUTHV:last-child {
+    margin-bottom: 0px;
+}
+
+.iAUTHV {
+    position: relative;
+    user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 1px 2px 4px;
+    backface-visibility: hidden;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    height: 25rem;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all 0.2s cubic-bezier(0.41, 0.094, 0.54, 0.07) 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-image: initial;
+}
+
+.iAUTHV .w1yu79-0 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 14.375rem;
+    flex: 0 1 auto;
+}
+
+.dILetJ {
+    position: relative;
+    background-color: rgb(230, 230, 230);
+    overflow: hidden;
+    flex: 0 0 auto;
+}
+
+.iAUTHV .w1yu79-9 {
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ceWPFK {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.welcometothejungle.co/uploads/article/image/5842/158497/thumb_profil-tele-travailleurs-1.jpg);
+    background-size: cover;
+    transition: all 0.3s cubic-bezier(0.41, 0.094, 0.54, 0.07) 0s;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*le bas de l'article */
+
+.iAUTHV .w1yu79-2 {
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    z-index: 1;
+    flex: 0 0 auto;
+}
+
+.iAUTHV .sc-1kkiv1h-3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.kQAvhz {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 1.5rem;
+    transition: all 0.2s cubic-bezier(0.41, 0.094, 0.54, 0.07) 0s;
+}
+
+.iAUTHV .w1yu79-3 {
+    flex: 0 1 auto;
+}
+
+.ggpoRi {
+    position: relative;
+    z-index: 2;
+}
+
+header{
+    display: block;
+}
+
+.iAUTHV .w1yu79-9 {
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.cWuPet {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.iAUTHV .w1yu79-6 {
+    opacity: 0;
+    font-size: 0.9375rem;
+    padding-top: 0.5rem;
+    transition: all 0.3s cubic-bezier(0.41, 0.094, 0.54, 0.07) 0s;
+}
+
+/* le coeur et la date de l'article */
+
+.iAUTHV .w1yu79-7 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 30;
+    align-items: flex-end;
+    padding: 1rem 1.5rem 1.5rem;
+    flex: 1 0 auto;
+}
+
+.eKvIYo {
+    display: flex;
+}
+
+.fKlbQs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -0.3rem;
+    font-size: 0.75rem;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    color: rgb(151, 153, 157);
+}
+
+ul {
+    list-style: none;
+}
+
+.fKlbQs .sc-1qc42fc-0 {
+    margin: 0px 0.8125rem 0.3rem 0px;
+}
+
+.ikTYuO {
+    font-weight: 400;
+    max-width: 100%;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    font-size: inherit;
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.fKlbQs .sc-1qc42fc-2 {
+    max-width: 12.5rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* le coeur */
+.gqlJUd {
+    display: flex;
+    margin-left: auto;
+}
+
+.jAVdzF {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(175, 175, 179);
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    background: none;
+    padding: 0px;
+}
+
+/* article 2*/
+
+.dmbPyR > div:nth-child(2n+2){
+    width: 33.3333%;
+}
+
+.dmbPyR > div{
+    width: calc(33.3333%);
+    flex: 0 0 auto;
+}
+
+.dmbPyR > div {
+    padding: 0px 1.5rem calc(3rem);
+}
+
+.hhdOes {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.welcometothejungle.co/uploads/article/image/4072/145802/thumb_entretien-telephone-5.jpg);
+    background-size: cover;
+    transition: all 0.3s cubic-bezier(0.41, 0.094, 0.54, 0.07) 0s;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* article 3 */
+
+.dmbPyR > div:nth-child(2n+1){
+    width: 33.3333%;
+}
+
+.dmbPyR > div {
+    flex: 0 0 auto;
+}
+
+.dmbPyR > div{
+    padding: 0px 1.5rem calc(3rem);
+}
+
+.kzdCDM {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.welcometothejungle.co/uploads/article/image/1623/158472/thumb_doctor-2.jpg);
+    background-size: cover;
+    transition: all 0.3s cubic-bezier(0.41, 0.094, 0.54, 0.07) 0s;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
 
-/* PAGE RECRUITERS --- présentation des entreprises/ ONG / associations --- */
+
+
+
+/*-------- SUBSCRIBTION---------*/
+
+@media (min-width: 48rem){
+.billboard__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 2rem 6rem;
+}
+
+.header-lg {
+    font-size: 2.25rem;
+}
+
+.btn.-wide {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.btn.-med {
+    padding: 1.5rem 1rem;
+}
+
+@media (min-width: 48rem){
+.btn {
+    padding: 1rem 1.5rem;
+}
+
+.btn, .btn:hover {
+    border-color: #0b292f;
+}
+
+.btn {
+    text-decoration: none;
+    transition-timing-function: ease;
+    transition-duration: .15s;
+    transition-property: all;
+    display: inline-block;
+    border-width: 2px;
+    color: #0b292f;
+    font-size: .875rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------*/
+/* ------PAGE RECRUITERS --- présentation des entreprises/ ONG / associations --- */
+/* -------------------------------------------------------------------------------*/
+
 .table { /* le tableau de projets*/
   position: relative;
   display: table;
@@ -616,8 +1012,9 @@ article{
 
 
 
-
-/* pour la partie présentation des développeurs*/
+/* -------------------------------------------------------------------------------*/
+/* ------- PRESENTATION DES DEV -----------------------------------------*/
+/* -------------------------------------------------------------------------------*/
 
 .hello-above-titre-dev{
   font-family: 'libre caslon text',Sans-serif;
@@ -655,8 +1052,10 @@ article{
 }
 
 
+/* -------------------------------------------------------------------------------*/
+/* ----  FOOTER ------------ les réseaux sociaux  ---- */
+/* -------------------------------------------------------------------------------*/
 
-/* ----  code pour les réseaux sociaux  ---- */
 .footer{
   font-family: 'Quicksand', sans-serif;
   text-align: center;
@@ -712,8 +1111,10 @@ i{
   margin-top: 4em;
   font-size:0.8em;
 }
+/* -------------------------------------------------------------------------------*/
+ /* ----  LES COOKIES ---------------------------- */
+ /* -------------------------------------------------------------------------------*/
 
- /* ----  code pour les cookies ---- */
 .window
 {
   display: flex;
