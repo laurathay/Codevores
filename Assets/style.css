@@ -108,7 +108,17 @@ img{
     font-size: 0.8em;
     margin-left: 0;
   }
+
+  .list-inline3 li {
+    list-style: none;
+    display:inline;
+    text-decoration: none;
+    overflow: hidden;
+
+  }
+
 }
+
 
 
 
@@ -159,9 +169,22 @@ img{
 
       }
 
-      footer{
-        min-height:250px;
-        height: 100%;
+      .hdl9e2-2 h2{
+                font-size:           1rem;
+      }
+      .honMkf h3{
+
+                  font-size:         1rem;
+      }
+
+      .hdl9e2-6{
+
+                  overflow: scroll;
+      }
+
+      #footer{
+
+                  display: none;
       }
 
       #left-footer{
@@ -220,11 +243,12 @@ h1{
   text-shadow: 3px 4px #ffffff;
 }
 
-h3, {
-  font-family: 'Abril Fatface', cursive;
-}
 
-/* ---- page INDEX ----- */
+/* -------------------------------------------------------------------------------*/
+/* ------PAGE INDEX --- partie de la communauté avec un sneak peak de tout --- */
+/* -------------------------------------------------------------------------------*/
+
+
 /*----------------------partie header----------------*/
 .inscription{
   display:flex;
@@ -564,7 +588,7 @@ h2 {
 }
 
 
-/*-------- BLOG---------*/
+/*-------- SNEAK PEAK BLOG---------*/
 
 /*partie titre*/
 .eyIDFm {
@@ -928,13 +952,31 @@ ul {
 
 
 
+/* -------------------------------------------------------------------------------*/
+/* ------PAGE RECRUITERS-SPACE --- portfolio des dev------------------- */
+/* -------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 /* -------------------------------------------------------------------------------*/
-/* ------PAGE RECRUITERS --- présentation des entreprises/ ONG / associations --- */
+/* ------PAGE DEV-SPACE --- présentation des entreprises/ ONG / associations --- */
 /* -------------------------------------------------------------------------------*/
 
 .table { /* le tableau de projets*/
@@ -1134,6 +1176,8 @@ i{
 
 .window p{
   font-size: 0.7em;
+  line-height: 2.5;
+  padding-top: 1em;
 }
 
 .cookie-button{
