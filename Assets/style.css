@@ -956,20 +956,132 @@ ul {
 /* ------PAGE RECRUITERS-SPACE --- portfolio des dev------------------- */
 /* -------------------------------------------------------------------------------*/
 
+/* le texte intro */
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 50em;
+    vertical-align: middle;
+    padding-left: 1em;
+    margin-left: 2em;
+}
+/* nos portfolio les plus populaires */
 
 
 
+/* nos developpeurs star */
 
+.divider {
+    width: 100px;
+    margin-top: 5em;
+    margin: 0 auto 5.5% auto;
+    border-top: 1px solid #0b0b0b;
+}
 
+@media only screen and (min-width: 80em){
+.pt-2sp.pt-2sp {
+    padding-top: 7.5rem;
+}
 
+@media only screen and (min-width: 64em){
+.pt-2sp.pt-2sp {
+    padding-top: 5rem;
+}
 
+.pt-2sp.pt-2sp {
+    padding-top: 2.5rem;
+}
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
 
+.flex {
+    display: flex;
+}
 
+@media only screen and (min-width: 80em){
+.prose {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
 
+@media only screen and (min-width: 64em){
+.prose {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
 
+/* 1er portfolio */
 
+@media only screen and (min-width: 64em){
+.w-third-md {
+    width: 33.33333%;
+}
 
+.prose {
+    position: relative;
+}
+
+.prose a {
+    border-bottom: none;
+    background-image: linear-gradient(currentColor,currentColor);
+    background-repeat: no-repeat;
+    background-position: 0 1.15em;
+    background-size: 100% 2px;
+}
+
+.ratio-1x1 {
+    padding-bottom: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.pv-075em.pv-075em {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
+.ph-1em.ph-1em {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.absolute--fill {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.cadre img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*-------- pagination----- */
+.navigation{
+  margin-top: 2em;
+}
+
+.pagination .page-item{
+  background-color: pink;
+}
 
 
 
