@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- emoticones et fonts -->
+    <script src="https://kit.fontawesome.com/682d71be2a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display|Quicksand&display=swap" rel="stylesheet">
+
+    <!-- lien bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- normal -->
+    <link rel="stylesheet" href="assets/style.css">
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  </head>
+  <body class="toutjour toutnuit theme-jour theme-nuit">
+
+    <section id="header">
+
+<!-------------------- bootstrap navigateur (cache misère pour l'instant à refaire l'intérieur) -------------->
+              <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                  <div class="bg-dark p-4">
+                            <h5 class="text-white h4">
+                              <a href="#" class="codevores"> Codevores </a>
+                            </h5>
+                                  <span class="text-muted">
+                                    <a href="process.html" class="link-recruiters"> Recruiters / </a>
+                                    <a href="process.html"class="link-dev"> / Developers </a>
+                                  </span>
+
+                    <div class="menu">
+                      <nav class ="nav-primary">
+                        <ul class="list-inline">
+                          <li><a href="index.html" target="_blank"> About </a></li>
+                          <li><a href="community.html"> Community </a></li>
+                          <li><a href="process.html"> Process </a></li>
+                          <li><a href="inscription.html"> Inscription </a></li>
+                          <li><a href="blog.html"> Blog </a></li>
+                          <li><a href="contact.html"> Services </a></li>
+                          <li><a href="contact.html"> Contact </a></li>
+                          <li><a href="FAQ.html"> FAQ </a></li>
+                          <li><a href="#"><button type="button" class="jour" name="button"><i class="fas fa-sun"></i></a></li>
+                          <li><a href="#"><button type="button" class="nuit" name="button"><i class="far fa-moon"></i></a></li>
+                        </ul>
+                      </nav>
+                    </div>
+
+                  </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </nav>
+              </div>
+
+    </section>
+
+<!---------------------------- LE TITRE ET LA NAV  ------------------------------------->
+
+    <section id = "main">
+
+
+
+                <div class="accroche">
+                	<h1> Interested in working with us? <br/> <span class= "italic">« be as colorful as your code » </span></h1>
+                </div>
+
+                <div class="values">
+                  <div class ="paragraphs">
+
+                    <p>
+                      How does it work? <br/>
+                      Please share some information about you & your project.<br/>
+                      We will contact you asap.
+                    </p>
+
+                  </div>
+                </div>
+
+                <br/>
+                  <hr class="divider">
+
+
+      <div class="contact view">
+                <div class="form-ctn">
+                  <form name="comission" method="post" action="https://atelierkarasinski.com/ak-mailform.php">
+                    <div class="personal">
+                      <h2>Please share some information about you &amp; your project.</h2>
+
+                      <!----><div class="name">
+                                <div>
+                                    <label>Your Name<span> *</span><input required="required" type="text"></label>
+                                </div>
+                              </div>
+
+                              <div class="company">
+                                <div>
+                                  <label>Your Company<!---->
+                                    <input type="text">
+                                  </label>
+                                </div>
+                              </div>
+
+                              <div class="website">
+                                <div>
+                                  <label>Website<!---->
+                                    <input type="text">
+                                  </label>
+                                </div>
+                              </div>
+
+                              <div class="email">
+                                <div>
+                                  <label>E-Mail    <!--<span> *</span>-->
+                                    <input type="text"><!--required="required"type="email"-->
+                                  </label>
+                                </div>
+                              </div>
+
+                              <div class="phone">
+                                <div>
+                                  <label>Phone<!----><input type="text"></label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="project">
+                              <h2>Your needs, our pleasure.</h2>
+                              <!----><div class="title">
+                                        <div>
+                                          <label>Project Title
+                                            <!----><input type="text">
+                                          </label>
+                                        </div>
+                                      </div>
+
+                                      <div class="location">
+                                        <div>
+                                          <label>Location of Project<span> *</span>
+                                            <input required="required" type="text">
+                                          </label>
+                                        </div>
+                                      </div>
+
+                                      <div class="description">
+                                        <div>
+                                          <label>How may we help your business? (Or please select below)<span> *</span><br/><br/>
+                                            <textarea rows="10" cols="75"required="required">
+
+                                            </textarea>
+                                          </label>
+                                        </div>
+                                      </div>
+
+                                      <div class="budget">
+                                        <div>
+                                          <label>Estimated budget
+                                            <!----><input class="budget-input" type="number">
+                                          </label>
+                                        </div>
+                                      </div>
+
+                                      <div class="timeline"><div>
+                                        <label>Timeline (start to end)
+                                          <!----><input type="hidden" data-input="true" class="flatpickr-input">
+                                                  <input class="flatpickr-input form-control input" placeholder="" tabindex="0" type="text" readonly="readonly">
+                                        </label>
+                                      </div>
+                                    </div>
+
+                                    <div class="categories">
+                                      <div>
+
+            <table style="width:100%">
+              <tr>
+                <th>
+                  <label class="checkbox"> Humanitarism
+                    <input name="Humanitarism" type="checkbox">
+                  </label>
+                </th>
+                <th>
+                  <label class="checkbox">Social Impact<input name="Branding" type="checkbox">
+                  </label>
+                </th>
+                <th>
+                  <label class="checkbox">Consultancy<input name="Consultancy" type="checkbox">
+                  </label>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <label class="checkbox">Start-Up<input name="Website" type="checkbox">
+                  </label>
+                </td>
+                <td>
+                  <label class="checkbox">Illustration<input name="Illustration" type="checkbox">
+                  </label>
+                </td>
+                <td>
+                  <label class="checkbox">Event Design<input name="Event Design" type="checkbox">
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label class="checkbox">Creative Direction<input name="Creative Direction" type="checkbox">
+                  </label>
+                </td>
+                <td>
+                  <label class="checkbox">Copywriting<input name="Copywriting" type="checkbox">
+                  </label>
+                </td>
+                <td>
+                  <label class="checkbox">Concept<input name="Concept" type="checkbox">
+                    </label>
+                </td>
+              </tr>
+            </table>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+  <div class="espace">
+  </div>
+
+                                  <div class="reference">
+                                    <h2>How did you find us?</h2>
+                                    <!----><div class="input">
+                                              <div><select><option value="" selected="selected" disabled="disabled" hidden="hidden">A lovely recommendation, friends, the internet…</option>
+                                                            <option>Word of Mouth</option>
+                                                            <option>Another Client</option>
+                                                            <option>Friends</option>
+                                                            <option>Facebook</option>
+                                                            <option>Instagram</option>
+                                                            <option>Google</option>
+                                                    </select>
+                                              </div>
+                                            </div>
+                                  </div>
+
+  <div class="espace">
+  </div>
+                                  <div class="note"><h2>Extra space for loveletters:</h2>
+                                    <!----><div class="input">
+                                              <div><label>
+                                                <!----><textarea rows="10" cols="75">
+
+                                                      </textarea>
+                                                    </label>
+                                              </div>
+                                            </div>
+                                  </div>
+
+                    <!----><!----><input type="text" name="fax" style="display: none;">
+                    <button type="submit" name="submit" class="button-send">
+                      <span>
+                        send
+                      </span>
+                    </button>
+                  </form>
+                </div>
+        </div>
+
+              <br/>
+                <hr class="divider">
+
+
+<!--------------------------- PARTIE SUBSCRIBTION ---------------------------------->
+
+<div class="billboard__container">
+  <div class="billboard__content">
+    <h3 class="title | header-lg font-serif">Quality work from a <br>community you can depend on.</h3>
+  </div>
+  <div class="billboard__action">
+    <a href="subscribtion.html" class="btn -med -wide">Get in Touch</a>
+  </div>
+</div>
+
+
+
+
+
+    </section>
+
+    <!--------------------------- PARTIE FOOTER ---------------------------------->
+
+
+    <footer class="footer" id="footer">
+
+        <div id="left-footer">
+          <nav>
+            <ul class= list-inline3>
+              <li><a href="index.html" target="_blank"> About </a></li>
+              <li><a href="community.html"> Community </a></li>
+              <li><a href="inscription.html"> Inscription </a></li>
+              <li><a href="process.html"> Process </a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div id="middle-footer">
+              <div class="padding-top-middle-footer">
+                <div class="accroche2">
+                    <h4> Codevores <br/> a digital nomad community <br/> <span class= "italic">« as colorful as your code » </span></h4>
+                </div>
+
+                <ul class= list-inline2>
+                  <li><a href="https://codepen.io/bradfordbradford/"><i class="fab fa-codepen"></i></a></li>
+                  <li><a href="https://dribbble.com/wearetelegraph"><i class="fab fa-dribbble"></i></a></li>
+                  <li><a href="https://github.com/laurathay?tab=repositories"><i class="fab fa-github"></i></a></li>
+                  <li><a href="https://www.instagram.com/wearetelegraph/"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                </ul>
+
+                <div class="copyright"> ©2020 Codevores. All rights reserved. Design by @ThayThay: <a href="#"> contact@codevores.com </a> View <a href="#">privacy policy.</a> </div>
+
+              </div>
+        </div>
+
+        <div id="right-footer">
+          <nav>
+            <ul class= list-inline3>
+              <li><a href="blog.html"> Blog </a></li>
+              <li><a href="contact.html"> Services </a></li>
+              <li><a href="contact.html"> Contact </a></li>
+              <li><a href="FAQ.html"> FAQ </a></li>
+            </ul>
+          </nav>
+        </div>
+    </footer>
+
+      <!-- ajout de cookies -->
+    <section class="window">
+      	<p> We use our own cookies and third party cookies to ensure the proper functioning of the website,<br/> to personalize content and advertising and to analyze data traffic and user behavior based on pseudonymous data. </p>
+				<button class="cookie-button" type="button" onclick="document.querySelector('.window').remove()" class="btn btn-light"> Got it!</button>
+    </section>
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
