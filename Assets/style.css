@@ -1213,153 +1213,143 @@ select{
 
 
 
+/* -------------------------------------------------------------------------------*/
+/* ------PAGE CONTACT DEVELOPPER --- lorsque l'on clic sur la photo de andrew
+Huang dans l'espace recruteur, la fiche du developpeur avec tout ses travaux apparait --- */
+/* -------------------------------------------------------------------------------*/
 
 
-/*@media only screen and (min-width: 1200px){
-.contact .form-ctn {
-    width: calc(66.66667% - 50px);
-    float: left;
-    margin-left: calc(16.66667% + 25px);
+/* partie descrition*/
+.titre-gris{
+  font-family: 'Libre Caslon Text', serif;
+  color:grey;
+  font-size: 2.250em;
+  margin-top: 7em;
+  opacity: 0.5;
 }
 
-.contact .form-ctn {
-    margin-bottom: 80px;
+.display-4{
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 5.625em;
+  margin-top: 1em;
 }
 
-.view{
-  text-align:center;
-   /*au cas ou ca bug on peut rajouter ca
-  width: 100%;
-  padding: 20px;
-  min-height: 58.5vh;
-  max-width: 1170px;
-  margin: 0 auto;
+.lead{
+  font-family: 'Fira Sans', sans-serif;
+  color: black;
+  margin-top: 2em;
+  margin-left: 15em;
 }
 
-form {
+.quote {
+    color: black;
+    margin-top: 2em;
+    margin-left: 19em;
+    font-style: italic;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari et Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+p .lead: after{
+  display:block;
+  font-family: 'Fira Sans', sans-serif;
+  margin-left: 10em;
+  margin-top: 2em;
+}
+
+.my-4{
+  margin-top: 10em;
+}
+
+.my-4 span{
+  font-size: 2em;
+}
+
+.display-5{
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 2.625em;
+  margin-top: 1em;
+  color: black;
+}
+
+.btn-warning{
+  margin-left: 15em;
+  border:0;
+}
+
+/*partie skills */
+
+.list-group{
+line-height: 2em;
+}
+
+.list-group-flush .list-group-item1{
+    border-top-width: 0;
+    background-color: pink;
+    padding: .75rem 1.25rem;
+    position: relative;
     display: block;
-    margin-top: 0em;
-}
-div {
-    display: block;
-}
-input[list], input[type=color], input[type=date], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week]{ {
-    height: 1.75rem;
 }
 
-.contact .form-ctn form>div { /*nouvelle facon decrire
-    margin-bottom: 80px;
-    text-align: left;
+.speciality{
+  background-image: linear-gradient(to bottom, transparent 50%, #FFDA00 50%);
+  background-size: 1px 12px;
+  background-position: 0px 97%;
+  background-repeat: repeat-x;
+  display: inline;
+  text-shadow: 3px 4px #ffffff;
 }
 
-.contact .form-ctn form>div>div {
-    margin-top: 40px;
-    position: relative;
+/*partie portfolio*/
+.andrew-portfolio, .andrew-portfolio2, .andrew-portfolio3{
+  display:flex;
+  margin:1.563em
+
 }
 
-/*@media (min-width: 1200px){
-.contact .form-ctn form>div>div.budget, .contact .form-ctn form>div>div.email, .contact .form-ctn form>div>div.location, .contact .form-ctn form>div>div.phone, .contact .form-ctn form>div>div.timeline, .contact .form-ctn form>div>div.title {
-    width: calc(50% - 10px);
-    width: calc(50% - var(--gutter)/2);
-    display: inline-block;
+.portfolio-andrew1, .portfolio-andrew2{
+  width: 50%;
+  display: inline-block;
 }
 
-/*@media (min-width: 1200px){
-label {
-    font-size: .875rem;
-}
-
-label {
-    display: block;
-    margin: .5rem auto;
-    text-align: left;
-    color: #aa9b93;
-    font-size: .75rem;
-}
-
-.project {
-    margin-bottom: 20px;
-    margin-bottom: var(--gutter);
-    clear: both;
-    float: none;
-    position: relative;
-    overflow: hidden;
-}
-
-/*@media (min-width: 1200px){
-.contact .form-ctn form>div>div.location, .contact .form-ctn form>div>div.phone, .contact .form-ctn form>div>div.timeline {
-    margin-left: 20px;
-    margin-left: var(--gutter);
-}
-
-/*@media (min-width: 1200px){
-.contact .form-ctn form>div>div.categories {
-    -webkit-column-count: 4;
-    column-count: 4;
-}
-
-/*@media (min-width: 1200px){
-.contact .form-ctn form>div>div.categories .checkbox {
-    margin: 0;
-    display: block;
-    font-size: .75rem;
-}
-
-label.checkbox {
-    padding-left: 1.5rem;
-    display: inline-block;
-    position: relative;
-}
-
-input[type=checkbox], input[type=radio] {
-    display: inline-block;
-    vertical-align: baseline;
-    visibility: hidden;
-    width: 0;
-}
-
-[type=checkbox], [type=radio] {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-}
-
-input {
-    color: #aa9b93;
-    line-height: 1.333;
-    font-weight: 300;
-    font-size: 1rem;
-    overflow: visible;
-}
-
-select {
-    height: 1.75rem;
-    position: relative;
-    -webkit-background-size: .56rem auto;
-    background-size: .56rem auto;
+.portfolio-andrew1{
+  flex-grow: 2;
 }
 
 
-.contact .form-ctn form button, .contact .form-ctn form button span {
-    -webkit-transition: all .25s ease-out;
-    -o-transition: all .25s ease-out;
-    transition: all .25s ease-out;
-    position: relative;
+.element, .element2 {
+	cursor: pointer;
+  margin:1.563em;
+	}
+
+.transition-width {
+    transition-property: 0%, 60%;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
 }
 
-.contact .form-ctn form button {
-    background: #fff;
-    padding: .5em 1em;
+.transition-width:hover {
+	width: 70%;
+	background: #008ed6;
 }
 
-button{
-    color: #aa9b93;
-    line-height: 1.333;
-    font-weight: 300;
-    border: none;
-    height:auto;
-    width: auto;*/
-}
+
+
+
+
+
 
 
 
