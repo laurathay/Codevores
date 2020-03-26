@@ -1328,7 +1328,7 @@ line-height: 2em;
 }
 
 
-.element, .element2 {
+.element, .element2{  /*rajouter ca pour le journall*/
 	cursor: pointer;
   margin:1.563em;
 	}
@@ -1343,6 +1343,41 @@ line-height: 2em;
 .transition-width:hover {
 	width: 70%;
 	background: #008ed6;
+}
+
+/*partie avis*/
+
+.onflexletout{
+  margin-left: 5em;
+  display: flex;
+  line-height: 2em;
+}
+
+.bob-rond{
+  height: 5em;
+}
+
+.bob-rond, .stuart-rond,.kevin-rond{
+  border-radius: 5em;
+  width: 5em;
+}
+
+.person-avis{
+  padding-top: 1em;
+  padding-left: 1em;
+}
+.nom-avis{
+  font-size: 2em;
+}
+
+.position-avis{
+  font-size: 1em;
+  opacity: 0.5em;
+}
+.avis{
+  padding-top: 1em;
+  padding-left: 1em;
+  width:40em;
 }
 
 
