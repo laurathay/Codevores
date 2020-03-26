@@ -239,6 +239,15 @@ ul{
                     font-size:         0.5em;
       }
 
+      /*fiche dev*/
+
+      .bob-rond, .stuart-rond, .kevin-rond{
+
+                        width:          5em;
+                        height:         5em;
+                        border-radius:  2em;
+      }
+
 
       #footer{
 
