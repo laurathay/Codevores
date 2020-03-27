@@ -1401,12 +1401,59 @@ line-height: 2em;
 /* ------PAGE DEV-SPACE --- présentation des entreprises/ ONG / associations --- */
 /* -------------------------------------------------------------------------------*/
 
+/* article par dessus le tableau */
+article{
+  display: block;
+  margin-right: 6em;
+}
+
+.project_description {
+  position: relative;
+  top: 50%;
+  right: -160px;
+  margin-top: -100px;
+  width: 210px;
+  background: #fff;
+  z-index: 4;
+}
+
+.project_description_cont{ /* le cadre par dessus les 4 images*/
+  position: relative;
+  padding: 25px;
+  opacity: 1;
+  z-index: 5;
+}
+
+.project_title {
+  display: inline;
+  font: normal 17px/30px 'f24e4d5d';
+  border-bottom: 4px solid #fff;
+}
+
+.brief-recruiter{ /* besoin de changer la police qui est introuvable */
+  font-family: 'f24e4d5d',"Helvetica Neue","Helvetica","Arial";
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+}
+
+
+/*  le tableau */
+
+
+#project_annonay_content img,
+#project_ca-commence-par-moi_content img,
+#project_cacao-forest_content img{
+
+  padding: 0 0;
+}
 .table { /* le tableau de projets*/
   position: relative;
   display: table;
   width: 100%;
   height: 100%;
   margin-left: 2em;
+  padding-top: 3em;
 }
 
 .project_images {
@@ -1414,6 +1461,12 @@ line-height: 2em;
   display: table-cell;
   vertical-align: middle;
   z-index: 3;
+}
+
+
+.project_image img{
+  width:28em;
+  padding: 0;
 }
 
 .project_image.first { /*pour avoir de lespace entre les 4 images*/
@@ -1428,8 +1481,8 @@ line-height: 2em;
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 27em;
-  height: 15em;
+  width: 29em;
+  height: 18em;
   border: 10px solid #fff;
   overflow: hidden;
 }
@@ -1439,19 +1492,32 @@ figure {
 }
 
 /* article par dessus le tableau */
-article{
+#project_ca-commence-par-moi_description{
   display: block;
+  margin-top: -73em;
+  margin-right: 6em;
+}
+#project_annonay_description{
+  display: block;
+  margin-top: -19em;
+  margin-right: 6em;
+}
+
+#project_cacao-forest_description{
+  display: block;
+  margin-top: 38em;
   margin-right: 6em;
 }
 
 .project_description {
   position: absolute;
-  top: 50%;
+  top: 60%;
   right: -160px;
   margin-top: -100px;
   width: 210px;
   background: #fff;
   z-index: 4;
+  font-size: small;
 }
 
 .project_description_cont{ /* le cadre par dessus les 4 images*/
@@ -1459,6 +1525,10 @@ article{
   padding: 25px;
   opacity: 1;
   z-index: 5;
+}
+
+.project_text{
+  padding-top: 2em;
 }
 
 .project_title {
