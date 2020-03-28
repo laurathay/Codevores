@@ -280,6 +280,36 @@ ul{
                         padding-top:      1em;
       }
 
+      /* pour le FAQ*/
+      .topo{
+
+                        margin-top:        1em;
+                        margin-left:       1em;
+                        font-size:         1em;
+      }
+
+      .questions span{
+        font-size: 1em;
+        display: flex;
+        color: white;
+      }
+
+      .lolilou h1{
+        padding-top: 1em;
+        margin-top: 1em;
+        font-size: 1em;
+        line-height: 1;
+      }
+
+      .lolilou h3{
+        font-size: 1.2em;
+      }
+
+      .text-left p{
+        font-size: 1em;
+      }
+
+
 
       #footer{
 
@@ -1657,12 +1687,6 @@ figure {
   font-size: 1em;
 }
 
-p {
-  font-size: 1.5em;
-  background-color: transparent;
-  background-image: none;
-}
-
 .nav-faq{
   display: block;
 }
@@ -1682,11 +1706,30 @@ p {
     line-height: .5;
     margin-bottom: 6px;
     font-size: 16px;
-    background: #fff;
+    color: white;
+    border:none;
     cursor: pointer;
     text-decoration: none!important;
 }
 
+.rouge{
+  background-color: #ec4c68;
+}
+
+.orange{
+  background-color: #f37d42;
+
+}
+
+.jaune{
+  background-color: #f3cf42;
+
+}
+
+.vert{
+  background-color: #6ec782;
+
+}
 span .tag:hover{
   color:pink;
 }
@@ -1696,9 +1739,14 @@ span .tag:hover{
 }
 
 #anser-1, #answer-2, #answer-3, #answer-4{
-  font-weight: 700!important;
+  padding-top: 2em;
+  margin-top: 3em;
   font-size: 3rem;
-  line-height: 1;
+  line-height: 3;
+}
+
+.questions{
+  margin-bottom: 10em;
 }
 
 .text-left{
@@ -1716,17 +1764,22 @@ span .tag:hover{
 }
 
 .faq p{
+    padding-top: 1.9em;
+    padding-bottom: 1.9em;
     text-align: left;
 }
 
 .answers p {
   margin: 1.4rem auto;
     display: block;
+    padding-top: 1.9em;
+    padding-bottom: 1.9em;
 }
 
 @media (min-width: 521px){
 .answers p {
     padding: 0 10.9em;
+
 }
 
 /*
