@@ -1643,6 +1643,98 @@ figure {
 
 
 /* -------------------------------------------------------------------------------*/
+/* ----  FAQ --------------- */
+/* -------------------------------------------------------------------------------*/
+.display-5 h3{
+  margin-left: 12em;
+}
+
+.topo{
+  font-family: 'Libre Caslon Text', serif;
+  color: black;
+  margin-top: 2em;
+  margin-left: 15em;
+  font-size: 1em;
+}
+
+p {
+  font-size: 1.5em;
+  background-color: transparent;
+  background-image: none;
+}
+
+.nav-faq{
+  display: block;
+}
+
+.FAQ{
+  text-align: center;
+}
+
+.tag {
+  display: inline-block;
+    border-radius: 4px;
+    border: .5px solid rgba(0,0,0,.3);
+    padding: 10px 12px;
+    margin-right: 6px;
+    line-height: .5;
+    margin-bottom: 6px;
+    font-size: 16px;
+    background: #fff;
+    cursor: pointer;
+    text-decoration: none!important;
+}
+
+span .tag:hover{
+  color:pink;
+}
+
+
+
+.flemme-ecran { /*ne fonctionne pas */
+  background-image:  url("Images/background5.jpg");
+  background-color: transparent;
+}
+
+/* -------------------------------------------------------------------------------*/
+/* ----  BLOG ------------ les articles  ---- */
+/* -------------------------------------------------------------------------------*/
+
+
+span.color1, span.color2, span.color3, span.color4 {
+    color: black;
+}
+span.color1, span.color2, span.color3, span.color4 {
+    font-size: 5em;
+    line-height: 1em;
+    font-weight: bold;
+    transition: color 3s;
+    padding: 0;
+}
+
+span.color1:hover{
+	color: pink;
+}
+
+span.color3:hover{
+	color: steelblue;
+}
+
+span.color2:hover{
+	color: yellow;
+}
+
+span.color4:hover{
+	color: seagreen;
+}
+
+#intro_color span{
+  display:inline-block;
+}
+
+
+
+/* -------------------------------------------------------------------------------*/
 /* ----  FOOTER ------------ les réseaux sociaux  ---- */
 /* -------------------------------------------------------------------------------*/
 

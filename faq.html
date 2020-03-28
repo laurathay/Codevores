@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- emoticones et fonts -->
     <script src="https://kit.fontawesome.com/682d71be2a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display|Quicksand&display=swap" rel="stylesheet">
+
+    <!-- lien bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- normal -->
     <link rel="stylesheet" href="assets/style.css">
     <meta charset="utf-8">
     <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
   </head>
@@ -14,60 +22,139 @@
 
     <section id="header">
 
-              <div class="inscription">
-                <a href="process.html" class="link-recruiters"> Recruiters / </a>
-                <a href="process.html"class="link-dev"> / Developers </a>
-                <a href="#" class="codevores"> Codevores </a>
+<!--------- bootstrap navigateur (cache misère pour l'instant à refaire l'intérieur) -------------->
+              <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                  <div class="bg-dark p-4">
+                            <h5 class="text-white h4">
+                              <a href="#" class="codevores"> Codevores </a>
+                            </h5>
+                                  <span class="text-muted">
+                                    <a href="process.html" class="link-recruiters"> Recruiters / </a>
+                                    <a href="process.html"class="link-dev"> / Developers </a>
+                                  </span>
 
-              </div>
+                    <div class="menu">
+                      <nav class ="nav-primary">
+                        <ul class="list-inline">
+                          <li><a href="index.html" target="_blank"> About </a></li>
+                          <li><a href="recruiters-space.html"> Community </a></li>
+                          <li><a href="dev-space.html"> Projets </a></li>
+                          <li><a href="andrew-huang.html"> Our Developpers <br/> matters </a></li>
 
-              <div class="menu">
-                <nav class ="nav-primary">
-                  <ul class="list-inline">
-                    <li><a href="#"><button type="button"class="burger" name="button"><i class="fas fa-align-justify"></i></a></li>
-                      <li><a href="index.html" target="_blank"> About </a></li>
-                      <li><a href="recruiters-space.html"> Community </a></li>
-                      <li><a href="dev-space.html"> Projets </a></li>
-                      <li><a href="andrew-huang.html"> Our Developpers <br/> matters </a></li>
+                          <li><a href="subscribtion.html"> Inscription </a></li>
+                          <li><a href="blog.html"> Blog </a></li>
+                          <li><a href="contact.html"> Contact </a></li>
+                          <li><a href="faq.html"> FAQ </a></li>
+                          <li><a href="#"><button type="button" class="jour" name="button"><i class="fas fa-sun"></i></a></li>
+                          <li><a href="#"><button type="button" class="nuit" name="button"><i class="far fa-moon"></i></a></li>
+                        </ul>
+                      </nav>
+                    </div>
 
-                      <li><a href="subscribtion.html"> Inscription </a></li>
-                      <li><a href="blog.html"> Blog </a></li>
-                      <li><a href="contact.html"> Contact </a></li>
-                      <li><a href="faq.html"> FAQ </a></li>
-                    <li><a href="#"><button type="button" class="jour" name="button"><i class="far fa-lightbulb"></i></a></li>
-                    <li><a href="#"><button type="button" class="nuit" name="button"><i class="fas fa-lightbulb"></i></a></li>
-                  </ul>
+                  </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                 </nav>
               </div>
 
     </section>
 
-
-
     <section id = "main">
 
-                <div class="accroche">
-                	<h1> Codevores <br/> a digital nomad community <br/> <span class= "italic">« as colorful as your code » </span></h1>
-                </div>
-
-              <div class="values">
-                <div class ="paragraphs">
-                    <p>
-                    Find the right tone for you <br/><br/>
-                    </p>
-
-                      <h3> FAQ </h3><br/>
-                    <p>
-                      Being a developers is a mindset, we share everything, for easier access for everyone, <span class="italic bold">sharing is caring</span><br/>
-                      <span class="italic bold"> Coding is a passion </span> for constant improvement and learning so that everyday seems like a new aventure<br/>
-                      Deep down we are all lazy, that’s how we become efficient / concise and you don’t DRY <span class="italic bold">(don’t repeat yourself)</span> of humour.<br/>
-                    </p>
-                </div>
-              </div>
-
-                <img class= "mapmonde" src="images/mapmonde.png" alt="mapmonde" style="opacity: 0.13">
 
 
+        <img class= "mapmonde" src="images/mapmonde.png" alt="mapmonde" style="opacity: 0.13">
+
+        <div class="display-5">
+
+                                  <h3> How can we help you? </h3><br/>
+
+              <nav class="navbar navbar-light bg-light">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Type keywords to find answers" aria-label="Search">
+                  <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </nav>
+        </div>
+                    <p class="topo">  You can choose from the links below to find the section that best describes you</p>
+
+
+      <div class= "FAQ">
+
+                    <section class="nav-faq">
+                      <div class="questions">
+                        <a href="#answer-1" class="tag">
+                          <span>I want to subscribe</span>
+                        </a>
+                        <a href="#answer-2" class="tag">
+                          <span>I'm already a subscriber</span>
+                        </a>
+                        <a href="#answer-3" class="tag">
+                          <span>I’m just curious</span>
+                        </a>
+                        <a href="#answer-4" class="tag">
+                          <span>I have a different question</span>
+                        </a>
+                      </div>
+                    </section>
+
+                    <section class="">
+                      <div class="answers">
+                        <h1 id="answer-1">I want to subscribe</h1>
+                        <div class="text-left">
+                          <h3><strong>Magazines – How do I know which ones I’ll proceed?</strong></h3>
+                                      <p>Fill this form <a href="subscribtion.html"> here </a> and we wille contact you asap.</p>
+
+                          <h3><strong>Confirmation – How do I know my subscription is live?</strong></h3>
+                                      <p>You will receive a confirmation email from us within 24 hours of your subscription, with all the details of your subscription and a link to your portal, allowing you to check and update your information.</p>
+
+                          <h3><strong>Overseas – Do you offer international work?</strong></h3>
+                                      <p>We have a different headquarters anywhere in the world. Just select your country from the drop down menu when you <a href="subscribtion.html">subscribe</a> and we’ll update the your position according to your needs.</p>
+
+                      <h1 id="answer-2">I'm already a subscriber</h1>
+                          <h3><strong>Project - How do I team up with another developer?</strong></h3>
+                                      <p>You can get in touch online at any time. Simply <a href="connection.html">sign in</a>&nbsp;using your email address and password, or if you don’t have an account set up, you can register using the email address associated with your subscription. Alternatively, just <a href="mailto:laurathaythayt@gamil.com">email us</a> and we’ll be happy to help.</p>
+
+                          <h3><strong>Changing address – How do I update my address details?</strong></h3>
+                                      <p>You can amend your details online. Simply <a href="coonection.html">sign in</a> using your email address and password, or if you don’t have an account set up, you can register using the email address associated with your subscription. Alternatively, just <a href="mailto:laurathaythay@gamil.com">email us</a> and we’ll be happy to help.</p>
+
+                          <h3><strong>Opting out – What if I don’t want to receive the newsletter?</strong></h3>
+                                      <p>We know that some people might not want to receive all the newsletter, so it’s easy to opt out. For example, if you already subscribe to the newsletter, just <a href="mailto:laurathaythay@gmail.com">email us</a> to let us know and we’ll make sure we unsubscribe you. We recommend to subscribe tho.</p>
+
+                      <h1 id="answer-3">I’m just curious</h1>
+                          <h3><b>Offers – How can I find out about new portfolio and project?</b></h3>
+                                      <p>You can subscribe to the shop mailing list <a href="https://stackmagazines.us10.list-manage.com/subscribe?u=0f04a83863762a59a8f94bbce&amp;id=9679e8be15">here</a> to be the first to know about new project or developers you listed as interesting. You can also follow us on <a href="https://www.instagram.com/stackmagazines/">Instagram</a> to get selected updates on our community.</p>
+
+                          <h3><b>Subscriptions – Can I subscribe without login in?</b></h3>
+                                      <p>No — the shop is intended as a quick and easy way to connect the world’s best independent developer with no commitments. If you’d like to get to know more by subscription, take a look at our <a href="https://www.stackmagazines.com/subscribe/"> monthly subscription </a>service.</p>
+
+                          <h3><b>Gifts – Can I subscribe for somebody else?</b></h3>
+                                        <p>You certainly can. If you’d like to send us his/her portfolio before, simply enter your login’s name and shipping address at checkout and we’ll send the link directly to them.</p>
+
+                      <h1 id="answer-4">I have a different question</h1> <h3><strong>Distribution – How can I have my magazine considered for Stack?</strong></h3><p>We’re always looking for new magazines to add to the Stack selection. If you’d like to have your magazine considered for Stack, please send a copy to us at Stack, Makerversity, Somerset House, London WC2R 1LA.</p>
+                          <h3><strong>Internships – Do you take work experience placements?</strong></h3>
+                                        <p>Not currently – if that changes at any point in the future we’ll announce it on the Stack blog.</p>
+
+                          <h3><strong>Events – Where can I find information about upcoming events?</strong></h3>
+                                        <p>You can find details of upcoming Stack Live&nbsp;events at our <a href="https://www.eventbrite.co.uk/o/stack-7599576243">Eventbrite page</a>. For all other Stack-related events keep an eye on the blog.</p> </div> </section>
+
+                          <h3><strong>Developers - What is it?</strong></h3>
+                                        <p>
+                                            Being a developers is a mindset, we share everything, for easier access for everyone, sharing is caring.
+                                            Coding is a passion for constant improvement and learning so that everyday seems like a new aventure.
+                                            Deep down we are all lazy, that’s how we become efficient / concise and you don’t DRY (don’t repeat yourself) of humour.
+                                        </p>
+
+                      </div>
+                    </div>
+
+
+
+      </div>
 
     </section>
 
