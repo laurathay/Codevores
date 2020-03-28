@@ -1669,6 +1669,8 @@ p {
 
 .FAQ{
   text-align: center;
+  font-family: 'Libre Caslon Text', serif;
+
 }
 
 .tag {
@@ -1689,13 +1691,50 @@ span .tag:hover{
   color:pink;
 }
 
+.faq h1{
+    margin-top: 6rem!important;
+}
 
+#anser-1, #answer-2, #answer-3, #answer-4{
+  font-weight: 700!important;
+  font-size: 3rem;
+  line-height: 1;
+}
 
-.flemme-ecran { /*ne fonctionne pas */
+.text-left{
+  text-align: left;
+}
+
+.lolilou h3 {
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 742px!important;
+    text-align: left;
+    margin-top: 3rem!important;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+.faq p{
+    text-align: left;
+}
+
+.answers p {
+  margin: 1.4rem auto;
+    display: block;
+}
+
+@media (min-width: 521px){
+.answers p {
+    padding: 0 10.9em;
+}
+
+/*
+.flemme-ecran { /*ne fonctionne pas
   background-image:  url("Images/background5.jpg");
   background-color: transparent;
 }
-
+*/
 /* -------------------------------------------------------------------------------*/
 /* ----  BLOG ------------ les articles  ---- */
 /* -------------------------------------------------------------------------------*/
