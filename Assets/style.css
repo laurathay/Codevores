@@ -273,6 +273,7 @@ ul{
       }
 
       .table { /* le tableau de projets*/
+
                         position:    relative;
                         display:        table;
                         width:            50%;
@@ -289,24 +290,28 @@ ul{
       }
 
       .questions span{
-        font-size: 1em;
-        display: flex;
-        color: white;
+
+                        font-size:         1em;
+                        display:          flex;
+                        color:           white;
       }
 
       .lolilou h1{
-        padding-top: 1em;
-        margin-top: 1em;
-        font-size: 1em;
-        line-height: 1;
+
+                        padding-top:       1em;
+                        margin-top:        1em;
+                        font-size:         1em;
+                        line-height:         1;
       }
 
       .lolilou h3{
-        font-size: 1.2em;
+
+                        font-size:       1.2em;
       }
 
       .text-left p{
-        font-size: 1em;
+
+                        font-size:         1em;
       }
 
 
@@ -1791,7 +1796,12 @@ span .tag:hover{
 /* -------------------------------------------------------------------------------*/
 /* ----  BLOG ------------ les articles  ---- */
 /* -------------------------------------------------------------------------------*/
-
+#intro_color{
+  background-image: image(Images/background5.jpg);
+  margin-left: 2em;
+  font-weight: bold;
+  text-align: center;
+}
 
 span.color1, span.color2, span.color3, span.color4 {
     color: black;
@@ -1799,8 +1809,8 @@ span.color1, span.color2, span.color3, span.color4 {
 span.color1, span.color2, span.color3, span.color4 {
     font-size: 5em;
     line-height: 1em;
-    font-weight: bold;
-    transition: color 3s;
+    font-weight: 5em;
+    transition: color 1s;
     padding: 0;
 }
 
@@ -1822,6 +1832,31 @@ span.color4:hover{
 
 #intro_color span{
   display:inline-block;
+}
+
+.card-deck{
+
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+/*les articles */
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-text{
+  text-align: justify;
+}
+
+.bg-warning, .bg-info, .bg-danger {
+  opacity:0.5;
 }
 
 
