@@ -1105,7 +1105,7 @@ ul {
     width: 50em;
     vertical-align: middle;
     padding-left: 1em;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .navbar{
@@ -1601,24 +1601,24 @@ figure {
 /* article par dessus le tableau */
 #project_ca-commence-par-moi_description{
   display: block;
-  margin-top: -60em;
-  margin-right: 6em;
+  margin-top: -101em;
+  margin-right: 5em;
 }
 #project_annonay_description{
   display: block;
-  margin-top: -7em;
+  margin-top: -44em;
   margin-right: 6em;
 }
 
 #project_cacao-forest_description{
   display: block;
-  margin-top: 50em;
+  margin-top: 14em;
   margin-right: 6em;
 }
 
 #project_please-come-inside_description{
   display: block;
-  margin-top: 105em;
+  margin-top: 71em;
   margin-right: 6em;
 }
 /*
@@ -1831,6 +1831,13 @@ span .tag:hover{
   text-align: center;
 }
 
+#intro_color-index{
+  background-image: image(Images/background5.jpg);
+  margin-left: 2em;
+  font-weight: bold;
+  text-align: left;
+}
+
 span.color1, span.color2, span.color3, span.color4 {
     color: black;
 }
@@ -1859,6 +1866,10 @@ span.color4:hover{
 }
 
 #intro_color span{
+  display:inline-block;
+}
+
+#intro_color-index span{
   display:inline-block;
 }
 
